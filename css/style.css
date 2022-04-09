@@ -10,6 +10,7 @@
 .header__logo {
   font-weight: 700;
   font-size: 6.4rem;
+  line-height: 117%;
   margin-right: 7rem;
 }
 
@@ -19,6 +20,7 @@
 
 .header__nav a {
   font-size: 2.4rem;
+  line-height: 117%;
   padding-bottom: 0.2rem;
   position: relative;
 }
@@ -69,21 +71,25 @@
 
 .header__find input::-webkit-input-placeholder {
   font-size: 2rem;
+  line-height: 115%;
   color: #fff;
 }
 
 .header__find input:-ms-input-placeholder {
   font-size: 2rem;
+  line-height: 115%;
   color: #fff;
 }
 
 .header__find input::-ms-input-placeholder {
   font-size: 2rem;
+  line-height: 115%;
   color: #fff;
 }
 
 .header__find input::placeholder {
   font-size: 2rem;
+  line-height: 115%;
   color: #fff;
 }
 
@@ -94,16 +100,313 @@
 
 .header__hour {
   font-size: 2rem;
+  line-height: 115%;
 }
 
 .header__days {
   font-size: 1.2rem;
+  line-height: 117%;
 }
 
 .header__personal {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
+}
+
+.main-display__trailer {
+  position: relative;
+  width: 98.5%;
+  height: 20.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("../img/spiderman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.7rem;
+  padding: 1.9rem 0 1.9rem 1.9rem;
+}
+
+.main-display__views {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 119%;
+}
+
+.main-display__header {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+.main-display__date {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 114%;
+}
+
+.button-play {
+  width: 0;
+  height: 0;
+  border-top: 1.5rem solid transparent;
+  border-left: 2.5rem solid #fff;
+  border-bottom: 1.5rem solid transparent;
+  border-radius: 0.2rem;
+}
+
+.button-play__wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.3);
+  width: 8.1rem;
+  height: 8.1rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.5rem 1rem 3.5rem 0;
+}
+
+.title__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title__right span {
+  font-size: 1.4rem;
+  line-height: 114%;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.title__right img {
+  width: 2rem;
+  height: 1.6rem;
+  margin-left: 0.4rem;
+}
+
+.title__main {
+  margin-right: 2rem;
+  font-size: 2rem;
+  line-height: 115%;
+}
+
+.title__count {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 2rem;
+  line-height: 115%;
+  padding-top: 0.3rem;
+}
+
+.trending, .popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 1.6rem;
+}
+
+.trending__item, .popular__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 47%;
+  height: 25.1rem;
+  background: url("../img/trending-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.6rem;
+}
+
+.trending__footer, .popular__footer {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.8rem 1rem 1.8rem 6.4rem;
+  border-radius: 1.6rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.trending__header, .popular__header {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+
+.trending__date, .popular__date {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+.trending__time, .popular__time {
+  padding: 0.4rem 1.3rem;
+  background: #fff;
+  border-radius: 1.6rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 114%;
+  color: #000;
+}
+
+.trending__plash, .popular__plash {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.4rem;
+  line-height: 114%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1.6rem;
+  padding: 0.4rem 1.3rem;
+}
+
+.small {
+  width: 5rem;
+  height: 5rem;
+  left: 7%;
+}
+
+.button-play__wrap.small .button-play {
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-left: 1.5rem solid #fff;
+  border-bottom: 1rem solid transparent;
+  border-radius: 0.2rem;
+}
+
+.popular__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 30%;
+  height: 19.2rem;
+  background: url(../img/netflix.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.6rem;
+}
+
+.popular__header {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+.popular__date {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 113%;
+}
+
+.popular__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular__rating span {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 120%;
+  margin-left: 0.4rem;
+}
+
+.popular__footer {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.8rem 1.9rem 0.8rem 6.4rem;
+  border-radius: 1.6rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.small-plus {
+  width: 3rem;
+  height: 3rem;
+  left: 10%;
+}
+
+.button-play__wrap.small-plus .button-play {
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-left: 1rem solid #fff;
+  border-bottom: 0.5rem solid transparent;
+  border-radius: 0.2rem;
 }
 
 *, *::before, *::after {
@@ -155,7 +458,7 @@ button, input {
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 3;
   grid-area: my-header;
 }
 
@@ -163,6 +466,7 @@ button, input {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   grid-area: my-main;
 }
 
@@ -176,7 +480,7 @@ button, input {
 .grid {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "my-header my-header" "my-aside my-main" "my-aside my-main";
+      grid-template-areas: "my-header my-header my-header" "my-aside my-main my-main" "my-aside my-main my-main";
   -ms-grid-columns: (minmax(12rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: 8rem 0;
