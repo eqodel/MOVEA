@@ -1,0 +1,66 @@
+.header
+    &-wrap
+        display: flex
+        align-items: center
+    &__logo
+        font-weight: 700
+        font-size: 6.4rem
+        line-height: 117%
+        margin-right: 7rem
+    &__nav
+        margin-right: 9.2rem
+    &__nav a
+        font-size: 2.4rem
+        line-height: 117%
+        padding-bottom: 0.2rem
+        position: relative
+    &__nav a:not(:last-child)
+        margin-right: 2rem
+    &__nav a::after
+        content: ""
+        position: absolute
+        bottom: 0
+        right: 100%
+        display: block
+        background: none repeat scroll 0 0 transparent
+        height: 2px
+        width: 0
+        background: #fff
+        transition: 0.3s
+    &__nav a:hover::after
+        width: 100%
+        right: 0
+    &__find
+        width: 33rem
+        height: 4.1rem
+        border-radius: 0.8rem
+        margin-right: 3.9rem
+    &__find input
+        width: 100%
+        height: 100%
+        background: rgba(255, 255, 255, 0.08) url('../img/search.svg')
+        background-repeat: no-repeat
+        background-size: 2rem
+        background-position: top 50% right 1.5rem
+        border-radius: 0.8rem
+        padding-left: 1rem
+        padding-right: 4rem
+        font-size: 2rem
+        color: #fff
+    &__find input::placeholder
+        font-size: 2rem
+        line-height: 115%
+        color: #fff
+    &__date
+        text-align: center
+        margin-right: 8.6rem
+    &__hour
+        font-size: 2rem
+        line-height: 115%
+    &__days
+        font-size: 1.2rem
+        line-height: 117%
+    &__personal
+        width: 6rem
+        height: 6rem
+        border-radius: 50%

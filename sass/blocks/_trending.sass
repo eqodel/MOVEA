@@ -1,0 +1,62 @@
+.trending, .popular
+    display: flex
+    justify-content: space-between
+    padding-right: 1.6rem
+    &__item
+        position: relative
+        display: flex
+        align-items: flex-end
+        width: 47%
+        height: 25.1rem
+        background: url('../img/trending-img.jpg')
+        background-repeat:  no-repeat
+        background-size: cover
+        background-position: center
+        border-radius: 1.6rem
+    &__footer
+        position: relative
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 1.8rem 1rem 1.8rem 6.4rem
+        border-radius: 1.6rem
+        background: rgba(255, 255, 255, 0.3)
+    &__header
+        font-weight: 700
+        font-size: 1.5rem
+        line-height: 150%
+    &__date
+        font-weight: 700
+        font-size: 1rem
+        line-height: 120%
+    &__time
+        padding: 0.4rem 1.3rem
+        background: #fff
+        border-radius: 1.6rem
+        font-weight: 400
+        font-size: 1.4rem
+        line-height: 114%
+        color: #000
+    &__plash
+        position: absolute
+        top: 2rem
+        left: 2rem
+        font-size: 1.4rem
+        line-height: 114%
+        background: rgba(255, 255, 255, 0.3)
+        border-radius: 1.6rem
+        padding: 0.4rem 1.3rem
+
+.small
+    width: 5rem
+    height: 5rem
+    left: 7%
+
+.button-play__wrap.small .button-play
+    width: 0
+    height: 0
+    border-top: 1rem solid transparent
+    border-left: 1.5rem solid #fff
+    border-bottom: 1rem solid transparent
+    border-radius: 0.2rem
